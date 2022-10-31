@@ -64,7 +64,7 @@ Escríbalo como una ecuación simple, nuestro enfoque de política de gradiente 
 
 ![1_KjByUhq9oxfG3OMd0izUAQ](https://user-images.githubusercontent.com/95035101/198918236-36b4b765-13b2-49c9-ad81-c5129a1908bf.png)
 
-uestro objetivo, por lo que debemos saber la recompensa acumulada al final del episodio. Es una especie de obedecer las reglas de Monte Carlo. Espere hasta que el agente finalice el episodio y luego cambie los parámetros y actualice la política. ¿Por qué esto es importante? Bueno, si haces una acción incorrecta en medio del episodio pero el episodio en general obtiene éxito, entonces crees que todas las acciones fueron lo suficientemente buenas. Significa que no puede reconocer si una acción afecta negativamente al episodio mientras ve los efectos generales. Entonces, tal vez en lugar de R, puede usar la recompensa esperada que puede obtener de ese estado y acción.
+Nuestro objetivo, por lo que debemos saber la recompensa acumulada al final del episodio. Es una especie de obedecer las reglas de Monte Carlo. Espere hasta que el agente finalice el episodio y luego cambie los parámetros y actualice la política. ¿Por qué esto es importante? Bueno, si haces una acción incorrecta en medio del episodio pero el episodio en general obtiene éxito, entonces crees que todas las acciones fueron lo suficientemente buenas. Significa que no puede reconocer si una acción afecta negativamente al episodio mientras ve los efectos generales. Entonces, tal vez en lugar de R, puede usar la recompensa esperada que puede obtener de ese estado y acción.
 
 ![1_JeqbiaaWkPaj6DA4jsLbKw](https://user-images.githubusercontent.com/95035101/198918266-016b1669-9634-432a-a6ce-256130c3c8f7.png)
 
